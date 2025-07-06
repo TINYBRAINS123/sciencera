@@ -1,0 +1,12 @@
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header { background: #000; color: #fff; padding: 10px; }
+nav ul { list-style: none; display: flex; gap: 15px; }
+nav a { color: white; text-decoration: none; }
+main { display: flex; padding: 20px; }
+.textbooks { flex: 3; }
+aside { flex: 1; padding-left: 20px; }
+footer { background: #333; color: white; text-align: center; padding: 10px; }
+#chatbot { padding: 20px; background: #f1f1f1; }
+#chat-input { width: 100%; height: 50px; }
+#chat-response { margin-top: 10px; }

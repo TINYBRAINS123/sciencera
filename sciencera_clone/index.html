@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sciencera Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Sciencera</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Study Notes</a></li>
+                <li><a href="#">Textbooks</a></li>
+                <li><a href="#">Book Lessons</a></li>
+                <li><a href="#">Career Guide</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="textbooks">
+            <h1>Free Textbooks</h1>
+            <article class="book">
+                <img src="images/book-placeholder.png" alt="Book Cover">
+                <h3>Example Textbook Title - Author</h3>
+                <button>Download PDF</button>
+            </article>
+            <!-- Repeat as needed -->
+        </section>
+        <aside>
+            <input type="text" placeholder="Search this blog..." />
+            <h2>Popular Posts</h2>
+            <ul><li>Coming Soon...</li></ul>
+            <h2>Subscribe</h2>
+            <input type="email" placeholder="Your Email"><button>Subscribe</button>
+            <h2>Follow Us</h2>
+            <div class="social-icons">[FB][IG][YT]</div>
+        </aside>
+    </main>
+
+    <div id="chatbot">
+        <h3>Sciencera AI Chatbot</h3>
+        <textarea id="chat-input" placeholder="Ask a science question..."></textarea>
+        <button onclick="askChatbot()">Send</button>
+        <div id="chat-response"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Sciencera. All rights reserved.</p>
+    </footer>
+
+    <script src="js/chatbot.js"></script>
+</body>
+</html>
